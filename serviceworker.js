@@ -6,11 +6,11 @@ self.addEventListener("install", function (event) {
     caches.open(
       cacheName.then(function (cache) {
         return cache.addAll([
-          "/insect/",
-          "insects/index.html",
-          "/insects/butterflies.jpg",
-          "insects/dragonfly.jpg",
-          "/insects/butterfly",
+          "/insectDownloadable/",
+          "/insectDownloadable/index.html",
+          "/insectDownloadable/butterflies.jpg",
+          "/insectDownloadable/dragonfly.jpg",
+          "/insectDownloadable/butterfly",
         ]);
       })
     )
