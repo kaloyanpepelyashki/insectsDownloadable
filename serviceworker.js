@@ -10,7 +10,7 @@ self.addEventListener("install", function (event) {
           "/insectDownloadable/index.html",
           "/insectDownloadable/butterflies.jpg",
           "/insectDownloadable/dragonfly.jpg",
-          "/insectDownloadable/butterfly",
+          "/insectDownloadable/butterfly.jpg",
         ]);
       })
     )
