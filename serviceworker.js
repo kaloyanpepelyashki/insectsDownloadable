@@ -7,14 +7,10 @@ self.addEventListener("install", function (event) {
       cacheName.then(function (cache) {
         return cache.addAll([
           "/insectsDownloadable/",
-          "/insectsDownloadable
-/index.html",
-          "/insectsDownloadable
-/butterflies.jpg",
-          "/insectsDownloadable
-/dragonfly.jpg",
-          "/insectsDownloadable
-/butterfly.jpg",
+          "/insectsDownloadable/index.html",
+          "/insectsDownloadable/butterflies.jpg",
+          "/insectsDownloadable/dragonfly.jpg",
+          "/insectsDownloadable/butterfly.jpg",
         ]);
       })
     )
